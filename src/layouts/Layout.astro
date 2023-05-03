@@ -1,5 +1,7 @@
 ---
 const { title } = Astro.props;
+import Navbar from '../components/Navbar.astro';
+import '../styles/bootstrap.scss';
 ---
 
 <html lang="en">
@@ -11,6 +13,9 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot></slot>
+    <Navbar />
+		<slot>No content derived</slot>
+    
+    <script>import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';</script>
 	</body>
 </html>
