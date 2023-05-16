@@ -2,6 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Harmoni Cita
 category: Ormawa
+thumbnail: /img/thumbnail/2.jpg
 ---
 
 # Selamat Berharmoni Bersama

@@ -2,6 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Memasuki Masa Kuliah
 category: Soft Skill
+thumbnail: /img/thumbnail/3.jpg
 ---
 
 # Memasuki Masa Kuliah

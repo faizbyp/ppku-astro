@@ -2,6 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: PPKU 59
 category: Asrama
+thumbnail: /img/thumbnail/5.jpg
 ---
 
 # Asrama PKU 59

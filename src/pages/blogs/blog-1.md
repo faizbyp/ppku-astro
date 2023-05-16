@@ -2,6 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Blog 1
 category: Asrama
+thumbnail: /img/thumbnail/1.jpg
 ---
 
 # Hi there!

@@ -2,6 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Tips Menulis Artikel
 category: Soft Skill
+thumbnail: /img/thumbnail/4.jpg
 ---
 
 # Tips Menulis Artikel
