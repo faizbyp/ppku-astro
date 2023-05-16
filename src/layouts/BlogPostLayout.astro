@@ -1,0 +1,10 @@
+---
+import Layout from "./Layout.astro";
+const {frontmatter} = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <main style="max-width: 576px;" class="m-auto py-4">
+    <slot />
+  </main>
+</Layout>

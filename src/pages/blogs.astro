@@ -1,8 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
-// const allBlogs = await Astro.glob('./blogs/*.md');
+const allBlogs = await Astro.glob('./blogs/*.md');
 ---
 
 <Layout title='Blogs'>
-  <h1 class="text-center fw-bold py-3">Blogs</h1>
+  <main class="container py-3">
+    <h1 class="fw-bold">Blogs <span class="badge bg-secondary">New</span></h1>
+    <p>Blog dari civitas PKU IPB</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+    {allBlogs.map((blog) => (
+      <div class="col">
+        <div class="card text-bg-primary">
+          <div class="card-header">{blog.frontmatter.category}</div>
+          <div class="card-body">
+            <h5 class="card-title">{blog.frontmatter.title}</h5>
+            <p class="card-text"></p>
+            <a href={blog.url} class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    ))}
+    </div>
+  </main>
 </Layout>

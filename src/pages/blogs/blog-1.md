@@ -1,6 +1,7 @@
 ---
-layout: ../../layouts/Layout.astro
-title: Hello, World
+layout: ../../layouts/BlogPostLayout.astro
+title: Blog 1
+category: Asrama
 ---
 
 # Hi there!
@@ -12,3 +13,7 @@ It probably isn't styled much, but Markdown does support:
 - lists
 - [links](https://astro.build)
 - and more!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et. Qui tenetur, perspiciatis nemo voluptas minus commodi laborum iusto. Fuga debitis doloribus corrupti corporis quibusdam asperiores ratione voluptatem quisquam! Architecto.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et. Qui tenetur, perspiciatis nemo voluptas minus commodi laborum iusto. Fuga debitis doloribus corrupti corporis quibusdam asperiores ratione voluptatem quisquam! Architecto.
