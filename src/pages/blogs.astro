@@ -13,8 +13,13 @@ const allBlogs = await Astro.glob('./blogs/*.md');
         <div class="card text-bg-primary">
           <div class="card-header">{blog.frontmatter.category}</div>
           <div class="card-body">
-            <img src={blog.frontmatter.thumbnail} alt="" class="img-fluid rounded mb-3" />
-            <h5 class="card-title">{blog.frontmatter.title}</h5>
+            <img
+              src={blog.frontmatter.thumbnail}
+              alt="" 
+              style="height: 150px !important;" 
+              class="img-thumbnail rounded mb-3 object-fit-cover w-100"
+            />
+            <h5 class="card-title fw-bold">{blog.frontmatter.title}</h5>
             <p class="card-text"></p>
             <a href={blog.url} class="stretched-link"></a>
           </div>

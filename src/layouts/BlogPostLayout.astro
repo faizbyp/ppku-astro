@@ -5,6 +5,8 @@ const {frontmatter} = Astro.props;
 
 <Layout title={frontmatter.title}>
   <main style="max-width: 576px;" class="m-auto py-4">
+    <h1 class="text-center fw-bold mb-3">{frontmatter.title}</h1>
+    <img src={frontmatter.thumbnail} alt="" class="img-fluid rounded mb-3" />
     <slot />
   </main>
 </Layout>
