@@ -7,7 +7,7 @@ const allBlogs = await Astro.glob('./blogs/*.md');
   <main class="container py-3">
     <h1 class="fw-bold">Blogs <span class="badge bg-secondary">New</span></h1>
     <p>Blog dari civitas PKU IPB</p>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     {allBlogs.map((blog) => (
       <div class="col">
         <div class="card text-bg-primary">
