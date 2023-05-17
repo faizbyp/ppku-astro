@@ -3,9 +3,9 @@
 
 Migrating PPKU IPB website WordPress theme into Astro framework.
 
-UI design by DSITD IPB PPKU web project UI design team.
+UI design by DSITD IPB PPKU web project UI design team with modification.
 
-![Logo](./public.favicon.png)
+![Logo](./public/favicon.png)
 ## Tech Stack
 
 Astro, React, Bootstrap 5, Markdown
