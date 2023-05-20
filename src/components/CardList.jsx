@@ -19,11 +19,11 @@ function CardList() {
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {cards && cards.map((card) => (
           <div className="col">
-            <div class="card text-bg-primary mb-3 text-center">
-              <div class="card-header">React Card</div>
-              <div class="card-body">
-                <h4 class="card-title fw-bold">{card.title}</h4>
-                <p class="card-text">{card.desc}</p>
+            <div className="card text-bg-primary mb-3 text-center">
+              <div className="card-header">React Card</div>
+              <div className="card-body">
+                <h4 className="card-title fw-bold">{card.title}</h4>
+                <p className="card-text">{card.desc}</p>
               </div>
             </div>
           </div>
