@@ -16,7 +16,7 @@ function CardList() {
 
   return (
     <div className="container my-5">
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {cards && cards.map((card) => (
           <div className="col">
             <div className="card text-bg-primary mb-3 text-center">
