@@ -14,10 +14,8 @@ import '../styles/bootstrap.scss';
 		<title>{title}</title>
 	</head>
 	<body>
-    <Navbar />
+    <Navbar client:load />
 		<slot>No content derived</slot>
     <Footer />
-    
-    <script>import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';</script>
 	</body>
 </html>
